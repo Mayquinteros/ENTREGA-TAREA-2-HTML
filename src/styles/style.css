@@ -1,5 +1,6 @@
 h1 {
     color:rgb(89, 31, 144);
+    text-align: center;
 }
 h2, h3, h4 {
     color: rgb(116, 64, 165);
@@ -7,6 +8,13 @@ h2, h3, h4 {
 body {
     background-color: rgb(133, 166, 226);
 }
+/*FUENTE DE GOOGLE FONTS*/
+h1, h2, h3, h4, p, a{
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 h1, h2, h3, h4, p, a {
     font-style: italic;
 }
@@ -25,4 +33,9 @@ ul {
 ul li::before {
     content: "★";
     margin-right: 8px;
+}
+/*SELECTOR DE CLASE*/
+.archivos {
+    text-decoration: underline;
+    text-decoration-color: rgb(116, 64, 165);
 }
