@@ -1,0 +1,8 @@
+input[type="submit"] {
+    background-color: rgb(153, 99, 204);
+    font-size: large;
+    border: none;  
+}
+input[type="submit"]:hover {
+    font-size: x-large;
+}

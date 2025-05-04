@@ -1,0 +1,28 @@
+h1 {
+    color:rgb(89, 31, 144);
+}
+h2, h3, h4 {
+    color: rgb(116, 64, 165);
+}
+body {
+    background-color: rgb(133, 166, 226);
+}
+h1, h2, h3, h4, p, a {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(130, 34, 34);
+    font-size: 1.1em;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li::before {
+    content: "★";
+    margin-right: 8px;
+}
