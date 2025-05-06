@@ -9,6 +9,7 @@ body {
     background-color: rgb(133, 166, 226);
 }
 /*FUENTE DE GOOGLE FONTS*/
+/* Aqui hay una redundancia. El mismo grupode elementos tienen dos font-style distintos. */
 h1, h2, h3, h4, p, a{
     font-family: "Vollkorn", serif;
     font-optical-sizing: auto;
