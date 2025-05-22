@@ -6,3 +6,11 @@ input[type="submit"], button {
 input[type="submit"]:hover, button:hover{
     font-size: x-large;
 }
+main {
+    top: 50px;
+    position: relative;
+    display: block;
+}
+footer {
+    display: block;
+}

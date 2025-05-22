@@ -1,8 +1,21 @@
 input[type="submit"] {
     background-color: rgb(153, 99, 204);
     font-size: large;
-    border: none;  
+    border: none;
+    position: absolute; 
 }
 input[type="submit"]:hover {
     font-size: x-large;
+}
+main {
+    top: 50px;
+    position: relative;
+    display: block;
+    padding-bottom: 60px;
+}
+footer {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
